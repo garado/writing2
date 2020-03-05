@@ -24,7 +24,7 @@ a {
 
 a:hover {
     margin: 0px 15px 0px 15px;
-    color: #a8a7a7;
+    color: rgba(167, 167, 167, 1) !important;
 
 }
 

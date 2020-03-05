@@ -37,5 +37,5 @@ window.onload = function() {
     setTimeout(fadeOne, 500);
     setTimeout(fadeTwo, 560);
     setTimeout(fadeThree, 640);
-    setTimeout(fadeFour, 700);
+    setTimeout(fadeFour, 1000);
 };
