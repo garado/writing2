@@ -19,7 +19,7 @@ a {
     color: rgba(1, 1, 1, 1);
     text-decoration: none;
     margin: 0px 5px 0px 5px;
-    transition: all 0.2s;
+    transition: all 0.4s;
 }
 
 a:hover {
@@ -114,6 +114,7 @@ a:hover {
 
 .vocab-word {
     font-size: 3em;
+    margin-bottom: -12px;
 }
 
 .vocab-definition {
@@ -138,7 +139,7 @@ a:hover {
 
 .writing-content {
     margin: 0.5em auto 0.5em auto;
-    max-width: 60%;
+    max-width: 65%;
 }
 
 .writing-source {
