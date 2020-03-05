@@ -11,12 +11,12 @@ body {
 nav {
     justify-content: center;
     margin: 2em;
-    color: rgba(1, 1, 1, 0);
+    color: rgba(1, 1, 1, 1);
     transition: all 0.5s;
 }
 
 a {
-    color: rgba(1, 1, 1, 0);
+    color: rgba(1, 1, 1, 1);
     text-decoration: none;
     margin: 0px 5px 0px 5px;
     transition: all 0.2s;
