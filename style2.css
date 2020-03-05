@@ -129,7 +129,7 @@ a:hover {
 
 /* GREAT WRITING */
 .great-writing {
-
+    margin: 3em;
 }
 
 .writing-number {
@@ -138,6 +138,7 @@ a:hover {
 
 .writing-content {
     margin: 0.5em auto 0.5em auto;
+    max-width: 60%;
 }
 
 .writing-source {
