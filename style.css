@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Spectral&display=swap');
+
+body {
+    font-family: 'Spectral';
+    justify-content: center;
+    text-align: center;
+    max-width: 65%;
+    margin: auto;
+}
+
+nav {
+    justify-content: center;
+    margin: 2em;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    transition: all 0.2s;
+}
+
+a:hover {
+    margin: 0px 15px 0px 15px;
+    color: #a8a7a7;
+}
+
+/* SPLASH */
+#splash {
+
+}
+
+.splash-name {
+    color: gray;
+}
+
+.splash-title {
+    font-size: 5em;
+}
+
+.splash-class {
+    color: gray;
+}
+
+/* CLASS READING NOTES */
+.notes {
+
+}
+
+.notes-number {
+    letter-spacing: 3px;
+    margin-bottom: -0.75em;
+}
+
+.notes-title {
+    font-size: 2.5em;
+}
+
+.notes-author {
+    margin-top: -0.75em;
+    margin-bottom: 1em;
+}
+
+.notes-content {
+    max-width: 70%;
+    margin: auto;
+    margin-top: 0.5em;
+}
+
+/* ADDITIONAL WRITING STUDIES */
+.additional-writing-studies {
+
+}
+
+.studies-title {
+    font-size: 2em;
+}
+
+.studies-author {
+    margin-bottom: 0.75em;
+}
+
+.studies-content {
+    max-width: 75%;
+    margin: auto;
+}
+
+/* VOCABULARY */
+.vocab {
+    margin: 3em;
+}
+
+.vocab-number {
+    letter-spacing: 3px;
+}
+
+.vocab-word {
+    font-size: 3em;
+}
+
+.vocab-definition {
+    font-size: 1.5em;
+    margin: 0.5em;
+}
+
+.vocab-source {
+    color: #8b0000 ;
+}
+
+/* GREAT WRITING */
+.great-writing {
+
+}
+
+.writing-number {
+    letter-spacing: 3px;
+}
+
+.writing-content {
+    margin: 0.5em auto 0.5em auto;
+}
+
+.writing-source {
+    color: #8b0000 ;
+}
+
+.process-log {
+
+}
+
+.reflection {
+
+}
