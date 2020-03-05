@@ -123,6 +123,8 @@ a:hover {
 
 .vocab-source {
     color: #8b0000 ;
+    opacity: 0.5;
+    margin: 0.25em;
 }
 
 /* GREAT WRITING */
@@ -140,6 +142,8 @@ a:hover {
 
 .writing-source {
     color: #8b0000 ;
+    opacity: 0.5;
+    margin: 0.25em;
 }
 
 .process-log {
