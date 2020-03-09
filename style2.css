@@ -25,7 +25,8 @@ a {
 a:hover {
     margin: 0px 15px 0px 15px;
     color: #a8a7a7;
-
+    color: #8b0000 !important;
+    opacity: 0.5;
 }
 
 /* SPLASH */

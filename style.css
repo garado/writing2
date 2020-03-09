@@ -24,19 +24,19 @@ a {
 
 a:hover {
     margin: 0px 15px 0px 15px;
-    color: rgba(167, 167, 167, 1) !important;
+    color: #8b0000 !important;
+    opacity: 0.5;
 
 }
 
 /* SPLASH */
 .splash-container {
     position: absolute;
-    margin: 0 auto 0 auto;
+    margin: 25% auto 0 auto !important;
 }
 
 .splash {
-    margin-top: 10% !important;
-	margin: auto;
+    margin: 12% auto 0 auto !important;
     color: rgba(1, 1, 1, 0);
     transition: all 0.5s;
 }
