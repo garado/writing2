@@ -62,7 +62,7 @@ a:hover {
 
 /* CLASS READING NOTES */
 .notes {
-
+    margin: 3em;
 }
 
 .notes-number {
@@ -75,8 +75,10 @@ a:hover {
 }
 
 .notes-author {
-    margin-top: -0.75em;
-    margin-bottom: 1em;
+    margin-bottom: 0.75em;
+    text-transform: uppercase;
+    color: #8b0000 !important;
+    opacity: 0.5;
 }
 
 .notes-content {

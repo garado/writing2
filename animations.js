@@ -58,6 +58,16 @@ function fade9() {
     action.classList.toggle('fadeIn');
 }
 
+function fade10() {
+    var action = document.getElementsByClassName("hamilton")[0];
+    action.classList.toggle('fadeImg');
+}
+
+function fade11() {
+    var action = document.getElementsByClassName("lafayette")[0];
+    action.classList.toggle('fadeImg');
+}
+
 
 // display particles as background
 window.onload = function() {
@@ -73,4 +83,6 @@ window.onload = function() {
     setTimeout(fade7, 1350);
     setTimeout(fade8, 1400);
     setTimeout(fade9, 1450);
+    setTimeout(fade10, 1500);
+    setTimeout(fade11, 2000);
 };

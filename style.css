@@ -57,94 +57,36 @@ a:hover {
     transition: all 0.5s;
 }
 
-/* CLASS READING NOTES */
-.notes {
-
+.hamilton {
+    position: absolute;
+    z-index: -10;
+    height: 70vh;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.75s;
 }
 
-.notes-number {
-    letter-spacing: 3px;
-    margin-bottom: -0.75em;
+.hamilton:hover {
+    opacity: 0.5;
 }
 
-.notes-title {
-    font-size: 2.5em;
+.lafayette:hover {
+    opacity: 0.75;
 }
 
-.notes-author {
-    margin-top: -0.75em;
-    margin-bottom: 1em;
+.lafayette {
+    position: absolute;
+    z-index: -10;
+    height: 80vh;
+    top: 0;
+    right: 2em;
+    opacity: 0;
+    transition: all 0.75s;
 }
 
-.notes-content {
-    max-width: 70%;
-    margin: auto;
-    margin-top: 0.5em;
-}
-
-/* ADDITIONAL WRITING STUDIES */
-.additional-writing-studies {
-
-}
-
-.studies-title {
-    font-size: 2em;
-}
-
-.studies-author {
-    margin-bottom: 0.75em;
-}
-
-.studies-content {
-    max-width: 75%;
-    margin: auto;
-}
-
-/* VOCABULARY */
-.vocab {
-    margin: 3em;
-}
-
-.vocab-number {
-    letter-spacing: 3px;
-}
-
-.vocab-word {
-    font-size: 3em;
-}
-
-.vocab-definition {
-    font-size: 1.5em;
-    margin: 0.5em;
-}
-
-.vocab-source {
-    color: #8b0000 ;
-}
-
-/* GREAT WRITING */
-.great-writing {
-
-}
-
-.writing-number {
-    letter-spacing: 3px;
-}
-
-.writing-content {
-    margin: 0.5em auto 0.5em auto;
-}
-
-.writing-source {
-    color: #8b0000 ;
-}
-
-.process-log {
-
-}
-
-.reflection {
-
+.fadeImg {
+    opacity: 0.25;
 }
 
 /* ANIMATIONS */
