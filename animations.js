@@ -53,6 +53,11 @@ function fade8() {
     action.classList.toggle('fadeIn');
 }
 
+function fade9() {
+    var action = document.getElementsByClassName("load12")[0];
+    action.classList.toggle('fadeIn');
+}
+
 
 // display particles as background
 window.onload = function() {
@@ -67,4 +72,5 @@ window.onload = function() {
     setTimeout(fade6, 1300);
     setTimeout(fade7, 1350);
     setTimeout(fade8, 1400);
+    setTimeout(fade9, 1450);
 };
