@@ -24,7 +24,6 @@ a {
 
 a:hover {
     margin: 0px 15px 0px 15px;
-    color: #a8a7a7;
     color: #8b0000 !important;
     opacity: 0.5;
 }
@@ -87,8 +86,8 @@ a:hover {
 }
 
 /* ADDITIONAL WRITING STUDIES */
-.additional-writing-studies {
-
+.studies {
+    margin: 3em;
 }
 
 .studies-title {
@@ -97,6 +96,9 @@ a:hover {
 
 .studies-author {
     margin-bottom: 0.75em;
+    color: #8b0000 !important;
+    opacity: 0.5;
+    text-transform: uppercase;
 }
 
 .studies-content {
@@ -160,4 +162,20 @@ a:hover {
 /* ANIMATIONS */
 .fadeIn {
     color: rgba(1, 1, 1, 1) !important;
+}
+
+
+.title {
+    font-size: 3em;
+}
+
+a.in-text {
+    color: #8b0000;
+    opacity: 0.5;
+    margin: 0 !important;
+}
+
+a.in-text:hover {
+    color: black !important;
+    opacity: 1 !important;
 }
